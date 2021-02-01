@@ -1,14 +1,15 @@
-let person = {
-  name: "Yoda",
-  designation: "Jedi Master ",
+let person;
+person = {
+  name: 'Yoda',
+  designation: 'Jedi Master ',
 };
 
 function trainJedi(jediWarrion) {
-  if (jediWarrion.name === "Yoda") {
-    console.log("No need! already trained");
+  if (jediWarrion.name === 'Yoda') {
+    console.log('No need! already trained');
   }
   console.log(`Training ${jediWarrion.name} complete`);
 }
 
 trainJedi(person);
-trainJedi({ name: "Adeel", designation: "padawan" });
+trainJedi({ name: 'Adeel', designation: 'padawan' });
